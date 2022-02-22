@@ -1,3 +1,42 @@
 * {
-  background-color: red;
+  box-sizing: border-box;
+}
+
+body {
+  color: #133813;
+  background-color: #7baa7a;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mainHeader,
+footer,
+.description {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card {
+  flex: 1 0 300px;
+  padding: 10px;
+  margin: 15px;
+  border: 3px dashed #b8d1b7;
+}
+
+.cardHeader {
+  position: relative;
+  margin-top: -30px;
+  border: 3px solid #b8d1b7;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #7baa7a;
+}
+
+.codeBlock {
+  background-color: #4a734a;
+  color: #b8d1b7;
+  border-radius: 10px;
 }

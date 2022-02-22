@@ -8,58 +8,64 @@
     <title>CSS Cheatsheet!</title>
   </head>
   <body>
-    <header>
+    <header class="mainHeader">
       <h1>CSS Snippet Cheatsheet</h1>
     </header>
-    <main>
-      <p>
-        Ever have trouble recalling the exact syntax for your favorite CSS code?
-        Give it a permanent home and add it to this page! Select any snippet
-        below and it'll automatically select all of the code for you to copy.
-      </p>
 
-      <section>
-        <section>
-          <h2>Flexbox Row</h2>
-          <p>Use these properties to create a Flexbox row layout.</p>
+    <p class="description">
+      Ever have trouble recalling the exact syntax for your favorite CSS code?
+      Give it a permanent home and add it to this page! Select any snippet below
+      and it'll automatically select all of the code for you to copy.
+    </p>
+    <main>
+      <section class="card">
+        <h2 class="cardHeader">Flexbox Row</h2>
+        <p>Use these properties to create a Flexbox row layout.</p>
+        <div class="codeBlock">
           <pre><code>.row {
                         display: flex;
                         flex-direction: row;
                         flex-wrap: wrap;
                      }</code></pre>
-        </section>
-        <section>
-          <h2>Flexbox Column</h2>
-          <p>Use this to create a flexbox column layout.</p>
+        </div>
+      </section>
+      <section class="card">
+        <h2 class="cardHeader">Flexbox Column</h2>
+        <p>Use this to create a flexbox column layout.</p>
+        <div class="codeBlock">
           <pre><code>.column {
                         display: flex;
                         flex-direction: column;
                      }</code></pre>
-        </section>
-        <section>
-          <h2>CSS Grid Layout</h2>
-          <p>Build a 12-column layout using CSS Grid.</p>
+        </div>
+      </section>
+      <section class="card">
+        <h2 class="cardHeader">CSS Grid Layout</h2>
+        <p>Build a 12-column layout using CSS Grid.</p>
+        <div class="codeBlock">
           <pre><code>.grid {
                         display: grid;
                         width: 100%;
                         grid-template-columns: repeat(12, 1fr);
                      }</code></pre>
-        </section>
-        <section>
-          <h2>Linear Gradients</h2>
-          <p>
-            This will create a background linear gradient from top to bottom.
-          </p>
+        </div>
+      </section>
+      <section class="card">
+        <h2 class="cardHeader">Linear Gradients</h2>
+        <p>This will create a background linear gradient from top to bottom.</p>
+        <div class="codeBlock">
           <pre><code>.linear-gradient-background {
                         background-image: linear-gradient(
                             rgba(232, 102, 236, 0.3) 0%,
                             rgba(232, 102, 236, 0.6) 100%
                          );
                     }</code></pre>
-        </section>
-        <section>
-          <h2>Box Transition Glow</h2>
-          <p>Use transition and box shadows to glow on hover.</p>
+        </div>
+      </section>
+      <section class="card">
+        <h2 class="cardHeader">Box Transition Glow</h2>
+        <p>Use transition and box shadows to glow on hover.</p>
+        <div class="codeBlock">
           <pre><code>.code-card .card-header {
                         border-radius: 8px;
                         transition: all 0.5s ease-in-out;
@@ -71,18 +77,20 @@
                         rgba(232, 102, 236, 1), 0 0 15px
                         rgba(232, 102, 236, 1);
                     }</code></pre>
-        </section>
-        <section>
-          <h2>Overlay Card With Title</h2>
-          <p>
-            Use position properties and negativae margins to raise elements
-            higher than their natural starting point.
-          </p>
+        </div>
+      </section>
+      <section class="card">
+        <h2 class="cardHeader">Overlay Card With Title</h2>
+        <p>
+          Use position properties and negativae margins to raise elements higher
+          than their natural starting point.
+        </p>
+        <div class="codeBlock">
           <pre><code>.card-header {
                         position: relative;
                         margin-top: -20px;
           }</code></pre>
-        </section>
+        </div>
       </section>
     </main>
     <footer><h2>Made with ❤️ and CSS</h2></footer>
