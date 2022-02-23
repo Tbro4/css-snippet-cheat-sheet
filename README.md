@@ -4,4 +4,8 @@ This is a CSS cheat sheet to find exact syntax for your favorite CSS code. Each 
 
 <br>
 
+[Click HERE to go to Cheatsheet](https://tbro4.github.io/css-snippet-cheat-sheet/)
+
+<br>
+
 ![image](/assets:images/ScreenShotCSSSnip.png)
