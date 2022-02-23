@@ -53,7 +53,7 @@ footer,
   flex: 1;
   overflow: auto;
   align-items: flex-start;
-  background-color: #4a734a;
+  background: linear-gradient(#4a734a, #5cac5c);
   color: #b8d1b7;
   border-radius: 10px;
 }
