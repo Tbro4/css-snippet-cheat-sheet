@@ -8,4 +8,4 @@ This is a CSS cheat sheet to find exact syntax for your favorite CSS code. Each 
 
 <br>
 
-![image](/assets:images/ScreenShotCSSSnip.png)
+![image](./assets/images/ScreenShotCSSSnip.png)
